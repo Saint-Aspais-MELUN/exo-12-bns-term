@@ -1,0 +1,1 @@
+# exo-12-bns-term
