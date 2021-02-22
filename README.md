@@ -1,56 +1,25 @@
-EXERCICE 1 (4 points) 
+# Sujet 12
 
- 
- 
-Écrire une fonction maxi qui prend en paramètre une liste tab de nombres
-entiers et qui renvoie  un  couple  donnant  le  plus  grand  élément  de
-cette  liste  ainsi  que  l’indice  de  la première apparition de ce maximum
-dans la liste. 
+Ce sujet comporte deux exercices : voir le PDF ci-joint
 
-Exemple : 
+Pour le premier exercice, vous devez écrire une fonction `maxi` 
 
->>> maxi([1,5,6,9,1,2,3,7,9,8]) 
-(9,3) 
- 
- 
- 
 
-EXERCICE 2 (4 points) 
+Pour le deuxième, il s'agit de compléter le code fourni.
 
-La fonction recherche prend en paramètres deux chaines de caractères gene et
-seq_adn et renvoie True si on retrouve gene dans seq_adn et False sinon. 
+- Les fichiers à compléter sont dans le dossier `exercices`.
 
-Compléter le code Python ci-dessous pour qu’il implémente la fonction recherche. 
+- Le dossier `tests` correspond aux tests fournis par l'énoncé.
+Il ne faut surtout pas modifier ces fichiers sous peine d'annulation de l'épreuve.
 
- 
+- Si vous travaillez avec repl.it, modifier le fichier .replit :  
+<pre><code style="background-color:black;color:white;width:100%;font-size: large;">
+# Si vous voulez exécuter l'exercice 1 : Enlever le # de la ligne ci-dessous
+# run = "python3 exercices/exercice1.py"
 
- 
+# Si vous voulez exécuter l'exercice 2 : Enlever le # de la ligne ci-dessous
+# run = "python3 exercices/exercice2.py"
 
- 
+language = "python3"
+</code></pre>
 
-def recherche(gene, seq_adn): 
-    n = len(seq_adn) 
-    g = len(gene) 
-    i = ... 
-    trouve = False 
-    while i < ... and trouve == ... : 
-        j = 0 
-        while j < g and gene[j] == seq_adn[i+j]: 
-            ... 
-        if j == g: 
-            trouve = True 
-        ... 
-    return trouve 
- 
-
-Exemples : 
-
->>> recherche("AATC", "GTACAAATCTTGCC") 
-True 
->>> recherche("AGTC", "GTACAAATCTTGCC") 
-False 
- 
-
- 2 / 2 
-
-
